@@ -1,0 +1,26 @@
+.book-list {
+  min-height: 80vh;
+  width: 80%;
+}
+.book-list-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-items: center; */
+  gap: 50px;
+  margin: 20px;
+}
+.book {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 80vh;
+}
